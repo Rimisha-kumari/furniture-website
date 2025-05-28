@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    background-color: #533B4D;
+    height: 60px;
+    color: black;
+}
+
+button {
+    background-color: #FAE3C6;
+    color: black;
+    height: 30px;
+    width: 60px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+#logo {
+    color: #FAE3C6;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #FAE3C6;
+    margin: 60px;
+}
+
+a:hover {
+    background-color: #F564A9;
+}
+
+#navbar input {
+    border: 1px solid grey;
+    height: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/*Section1 code begins here*/
+#section1 {
+    width: 100%;
+    height: 90vh;
+    background: url('https://blog.lomuarredi.com/wp-content/uploads/2021/03/20.jpg');
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#section1 button {
+    border: 2pz solid black;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(31, 28, 28);
+    color: white;
+}
+
+#section1 h1 {
+    color: black;
+    font-size: 55px;
+}
+
+#section1 h3 {
+    line-height: 40px;
+}
+
+/*section2 code begins here*/
+#section2 {
+    color: black;
+    
+}
+
+#section2 h1 {
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight:900;
+    font-size: 40px;
+}
+
+
+#section2 .container {
+  display: flex;
+  justify-content: space-between; /* Distributes boxes evenly */
+  align-items: center;            /* Vertically centers boxes */
+  gap: 20px;                      /* Space between boxes */
+  padding: 20px;
+
+}
+#section2 .container .box{
+  /* border: 1px solid grey; */
+  height: 120px;
+}
+  
+
+#section2.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+/*section3 code begins here*/
+#section3 {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(31, 28, 28);
+    color: white;
+   
+}
+#section3 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+#section3 ul li {
+   margin: 25px;
+   font-size: 25px;
+}
+#section3 h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight:900;
+    font-size: 40px;
+}
